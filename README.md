@@ -14,3 +14,38 @@
 
 ### 2. Menu di program utama
 ```
+def menu():
+    print("\n")
+    print("====================================================")
+    print("      \t\t Program input nilai       ")
+    print("====================================================\n")
+
+    x = input("[(L)ihat, (T)ambah, (U)bah, (H)apus, (C)ari, (K)eluar]: ")
+    print("\n")
+
+    if x == 'L':
+        show()
+    elif x == 'T':
+        add()
+    elif x == 'U':
+        update()
+    elif x == 'H':
+        delete()
+    elif x == 'C':
+        search()
+    elif x == 'K':
+        print("==========================================================================")
+        print('\n')
+        print("> You exit the code                        ")
+        print("\n")
+        print("==========================================================================")
+
+        exit()
+
+    else:
+        print("            KODE YANG ANDA MASUKKAN TIDAK VALID !!!!!!!!!!!")
+
+
+while True:
+  menu()
+```  
