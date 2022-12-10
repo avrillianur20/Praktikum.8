@@ -49,3 +49,6 @@ def menu():
 while True:
   menu()
 ```  
+
+### 3. Program untuk menambah data
+```
